@@ -1,0 +1,14 @@
+.ordercnfd {
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.orderbtn {
+    border: 1px solid;
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    width: 100px;
+}
