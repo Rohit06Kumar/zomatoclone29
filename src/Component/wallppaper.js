@@ -39,14 +39,14 @@ export default withRouter(class Wallpaper extends react.Component{
     handleShowSuggestions = () =>{
         const {Suggestions, inputText} = this.state;
         
-        if (Suggestions.length === 0 && inputText === undefined){
+        if (Suggestions.length == 0 && inputText == undefined){
             return null;
         }
-        if (Suggestions.length > 0 && inputText === ''){
+        if (Suggestions.length > 0 && inputText == ''){
             return null;
         }
 
-        if (Suggestions.length === 0 && inputText){
+        if (Suggestions.length == 0 && inputText){
             return  <ul>
                         <li>No Result Found</li>
                     </ul>
