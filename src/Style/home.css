@@ -4,7 +4,7 @@ html {
 } */
 
 .home {
-    background-image: url(D:\assignment\React\zomato_clone\public\Assets\homepageimg.png);
+    background-image: url('homepageimg.png');
     height: 400px;
     background-size: 100%;
     background-repeat: round;
