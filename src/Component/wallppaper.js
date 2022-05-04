@@ -17,7 +17,7 @@ export default withRouter(class Wallpaper extends react.Component{
         sessionStorage.setItem('locationId',locationId);
         axios({
             method:'GET',
-            url:`https://nameless-chamber-61301.herokuapp.com/${locationId}`,
+            url:`https://nameless-chamber-61301.herokuapp.com/restaurants/${locationId}`,
             headers:{'content-type':'application/json'},
         })
             .then(response=>{
