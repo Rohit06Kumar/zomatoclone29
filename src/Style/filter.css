@@ -74,6 +74,7 @@ html {
 .imgclass {
     border-radius: 20px;
     margin-left: 18%;
+    height: 70%;
 }
 
 .img_right_heading {
@@ -182,6 +183,14 @@ html {
     .div1 {
         width: 39%;
         display: inline-block;
+    }
+    .imgclass {
+        border-radius: 20px;
+        margin-left: 18%;
+        height: 82%;
+    }
+    .zip {
+        margin-top: 4px;
     }
     /* .item {
         margin-top: 1.5%;

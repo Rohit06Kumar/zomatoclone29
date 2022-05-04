@@ -447,7 +447,7 @@ export default class Filter extends React.Component{
                                     return <div className="filteritem" onClick={() => this.handleNavigate(Item._id)}>
                                                 <div className="row  upperItem">
                                                     <div className="col-4">
-                                                        <img className="imgclass" src={`./${Item.image}`} alt="no image found" width="80%" height="82%"/>
+                                                        <img className="imgclass" src={`./${Item.image}`} alt="no image found" width="80%"/>
                                                     </div>
                                                     <div className="col-8">
                                                         <div className="img_right_heading">{Item.name}</div>

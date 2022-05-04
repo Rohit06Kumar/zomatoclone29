@@ -355,7 +355,7 @@ export default class Details extends React.Component{
                                 <label htmlFor="inputCity">City<span><b>*</b></span></label>
                                 <input type="text" className="form-control" id="inputCity" onChange={(event) => this.handleInputChange('city',event)} required/>
                             </div>
-                            <div className="form-group col-md-2">
+                            <div className="form-group col-md-2 zip">
                                 <label htmlFor="inputZip">Zip<span><b>*</b></span></label>
                                 <input type="text" className="form-control" id="inputZip" onChange={(event) => this.handleInputChange('zip',event)} required/>
                             </div>
