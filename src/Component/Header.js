@@ -265,7 +265,7 @@ class Header extends React.Component {
                         <div class="login-heading">Login</div>
                         <div style={{ marginBottom: '2px' }}>
                             <GoogleLogin onClick={() => this.handleModal('loginModalIsOpen', false)}
-                                clientId="376715554343-345ska2u8veqt54979oa35k57sriof8q.apps.googleusercontent.com"
+                                clientId="885022972582-9e9g4jmrh4ssg29bt8om67e1ffcghkaa.apps.googleusercontent.com"
                                 buttonText="Continue with Gmail"
                                 onSuccess={this.responseGoogle}
                                 onFailure={this.responseGoogle}
@@ -299,7 +299,7 @@ class Header extends React.Component {
                         <div class="login-heading">Sign Up</div>
                         <div style={{ marginBottom: '2px' }}>
                             <GoogleLogin onClick={() => this.handleModal('signUpModalIsOpen', false)}
-                                clientId="376715554343-345ska2u8veqt54979oa35k57sriof8q.apps.googleusercontent.com"
+                                clientId="885022972582-9e9g4jmrh4ssg29bt8om67e1ffcghkaa.apps.googleusercontent.com"
                                 buttonText="Continue with Gmail"
                                 onSuccess={this.responseGoogle}
                                 onFailure={this.responseGoogle}
