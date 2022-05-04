@@ -397,10 +397,11 @@ export default class Filter extends React.Component{
         }
         return(
             <div>
-                
                 <div className="container" style={{'margin-top': '2%'}}>
-                    <h1 style={{'color': 'darkBlue', 'margin-left': '12%', 'margin-bottom': '2.5%', 'font-weight': 'bold', 'font-family': 'fantasy'}}>{mealtypeName}</h1>
-                    <div className="row" style={{'height': '100%', 'margin-left': '12%'}}>
+                    <h1 style={{'color': 'darkBlue', 'margin-bottom': '2.5%', 'font-weight': 'bold', 'font-family': 'fantasy'}}>{mealtypeName}</h1> 
+                </div>
+                <div className="container" style={{'margin-top': '2%'}}>
+                    <div className="row" style={{'height': '100%'}}>
                         <div className="col-lg-4 col-sm-12 col-md-4">
                             <div className="filter">
                                 <div className="filter_cont ">
