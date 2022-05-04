@@ -17,7 +17,7 @@ export default class Home extends React.Component{
         sessionStorage.clear();
         axios({
             method:'GET',
-            url:'http://localhost:1234/locations',
+            url:'https://nameless-chamber-61301.herokuapp.com/locations',
             headers:{'content-type':'application/json'}
         })
             .then(response=>{
@@ -27,7 +27,7 @@ export default class Home extends React.Component{
         
         axios({
             method:'GET',
-            url:'http://localhost:1234/mealtypes',
+            url:'https://nameless-chamber-61301.herokuapp.com/mealtypes',
             headers:{'content-type':'application/json'}
         })
             .then(response=>{

@@ -75,7 +75,7 @@ class Header extends React.Component {
         };
         axios({
             method: 'POST',
-            url: 'http://localhost:1234/userSignUp',
+            url: 'https://nameless-chamber-61301.herokuapp.com/userSignUp',
             headers: { 'Content-Type': 'application/json' },
             data: signUpObj
         })
@@ -100,7 +100,7 @@ class Header extends React.Component {
         };
         axios({
             method: 'POST',
-            url: 'http://localhost:1234/userLogin',
+            url: 'https://nameless-chamber-61301.herokuapp.com/userLogin',
             headers: { 'Content-Type': 'application/json' },
             data: loginObj
         })

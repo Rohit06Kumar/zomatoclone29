@@ -33,7 +33,7 @@ export default class Filter extends React.Component{
 
         axios({
             method:'POST',
-            url:'http://localhost:1234/filter',
+            url:'https://nameless-chamber-61301.herokuapp.com/filter',
             headers:{'content-type':'application/json'},
             data:filterObj
         })
@@ -45,7 +45,7 @@ export default class Filter extends React.Component{
 
         axios({
             method:'GET',
-            url:'http://localhost:1234/locations',
+            url:'https://nameless-chamber-61301.herokuapp.com/locations',
             headers:{'content-type':'application/json'}
         })
             .then(response=>{
@@ -72,7 +72,7 @@ export default class Filter extends React.Component{
 
         axios({
             method:'POST',
-            url:'http://localhost:1234/filter',
+            url:'https://nameless-chamber-61301.herokuapp.com/filter',
             headers:{'content-type':'application/json'},
             data:filterObj
         })
@@ -99,7 +99,7 @@ export default class Filter extends React.Component{
 
         axios({
             method:'POST',
-            url:'http://localhost:1234/filter',
+            url:'https://nameless-chamber-61301.herokuapp.com/filter',
             headers:{'content-type':'application/json'},
             data:filterObj
         })
@@ -128,7 +128,7 @@ export default class Filter extends React.Component{
 
         axios({
             method:'POST',
-            url:'http://localhost:1234/filter',
+            url:'https://nameless-chamber-61301.herokuapp.com/filter',
             headers:{'content-type':'application/json'},
             data:filterObj
         })
@@ -209,7 +209,7 @@ export default class Filter extends React.Component{
 
         axios({
             method:'POST',
-            url:'http://localhost:1234/filter',
+            url:'https://nameless-chamber-61301.herokuapp.com/filter',
             headers:{'content-type':'application/json'},
             data:filterObj
         })
@@ -259,7 +259,7 @@ export default class Filter extends React.Component{
         
         axios({
             method:'POST',
-            url:'http://localhost:1234/filter',
+            url:'https://nameless-chamber-61301.herokuapp.com/filter',
             headers:{'content-type':'application/json'},
             data:filterObj
         })
@@ -316,7 +316,7 @@ export default class Filter extends React.Component{
         // alert(page)
         axios({
             method:'POST',
-            url:'http://localhost:1234/filter',
+            url:'https://nameless-chamber-61301.herokuapp.com/filter',
             headers:{'content-type':'application/json'},
             data:filterObj
         })
@@ -373,7 +373,7 @@ export default class Filter extends React.Component{
         
         axios({
             method:'POST',
-            url:'http://localhost:1234/filter',
+            url:'https://nameless-chamber-61301.herokuapp.com/filter',
             headers:{'content-type':'application/json'},
             data:filterObj
         })

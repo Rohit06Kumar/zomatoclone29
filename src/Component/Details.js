@@ -64,7 +64,7 @@ export default class Details extends React.Component{
         const {restaurant} = qs
         axios({
             method:'GET',
-            url:`http://localhost:1234/restaurant/${restaurant}`,
+            url:`https://nameless-chamber-61301.herokuapp.com/restaurant/${restaurant}`,
             headers:{'content-type':'application/json'},
         })
             .then(response=>{
@@ -81,7 +81,7 @@ export default class Details extends React.Component{
         const{restauranId} = this.state;
         axios({
             method:'GET',
-            url:`http://localhost:1234/items/${restauranId}`,
+            url:`https://nameless-chamber-61301.herokuapp.com/items/${restauranId}`,
             headers:{'content-type':'application/json'},
         })
             .then(response=>{
@@ -157,7 +157,7 @@ export default class Details extends React.Component{
 
     getData = (data) => {
 
-        return fetch(`http://localhost:1234/payment`, {
+        return fetch(`https://nameless-chamber-61301.herokuapp.com/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
